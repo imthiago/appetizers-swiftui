@@ -10,6 +10,8 @@
 		AFEDFBD628F4904700719C99 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDFBD528F4904700719C99 /* AppetizerDetailView.swift */; };
 		AFEDFBD928F4A23D00719C99 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDFBD828F4A23D00719C99 /* APButton.swift */; };
 		AFEDFBDB28F4A2C700719C99 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDFBDA28F4A2C700719C99 /* XDismissButton.swift */; };
+		AFEDFBDD28F4AB6500719C99 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDFBDC28F4AB6500719C99 /* AccountViewModel.swift */; };
+		AFEDFBDF28F4ACA400719C99 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDFBDE28F4ACA400719C99 /* String+Ext.swift */; };
 		AFFF3E7C28EB326600CA41E2 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF3E7B28EB326600CA41E2 /* AppetizersApp.swift */; };
 		AFFF3E7E28EB326600CA41E2 /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF3E7D28EB326600CA41E2 /* AppetizersTabView.swift */; };
 		AFFF3E8028EB326700CA41E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFF3E7F28EB326700CA41E2 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		AFEDFBD528F4904700719C99 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		AFEDFBD828F4A23D00719C99 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		AFEDFBDA28F4A2C700719C99 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		AFEDFBDC28F4AB6500719C99 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		AFEDFBDE28F4ACA400719C99 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		AFFF3E7828EB326600CA41E2 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFF3E7B28EB326600CA41E2 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		AFFF3E7D28EB326600CA41E2 /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		AFEDFBCA28F48E3B00719C99 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				AFEDFBDC28F4AB6500719C99 /* AccountViewModel.swift */,
 				AFFF3E8B28EB32FA00CA41E2 /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				AFFF3E9D28EB642300CA41E2 /* Color+Ext.swift */,
+				AFEDFBDE28F4ACA400719C99 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				AFFF3E9628EB492600CA41E2 /* APError.swift in Sources */,
 				AFEDFBDB28F4A2C700719C99 /* XDismissButton.swift in Sources */,
 				AFFF3E9228EB41AA00CA41E2 /* AppetizerListCell.swift in Sources */,
+				AFEDFBDD28F4AB6500719C99 /* AccountViewModel.swift in Sources */,
 				AFFF3E9828EB529300CA41E2 /* AppetizerListViewModel.swift in Sources */,
 				AFFF3E9E28EB642300CA41E2 /* Color+Ext.swift in Sources */,
 				AFFF3E9C28EB638000CA41E2 /* ActivityIndicator.swift in Sources */,
@@ -306,6 +313,7 @@
 				AFFF3E7E28EB326600CA41E2 /* AppetizersTabView.swift in Sources */,
 				AFFF3E9428EB483700CA41E2 /* NetworkManager.swift in Sources */,
 				AFFF3EA028EB685500CA41E2 /* RemoteImage.swift in Sources */,
+				AFEDFBDF28F4ACA400719C99 /* String+Ext.swift in Sources */,
 				AFEDFBD628F4904700719C99 /* AppetizerDetailView.swift in Sources */,
 				AFFF3E7C28EB326600CA41E2 /* AppetizersApp.swift in Sources */,
 				AFFF3E9A28EB53D300CA41E2 /* Alert.swift in Sources */,
